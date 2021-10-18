@@ -1,3 +1,6 @@
 GET http://localhost:3000/rabbitmq/helloWorld HTTP/1.1
 ###
 GET http://localhost:3000/rabbitmq/fakerUser HTTP/1.1
+###messages
+GET http://localhost:3000/rabbitmq/readMessages HTTP/1.1
+

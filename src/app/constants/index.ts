@@ -1,1 +1,2 @@
-export { serverConst } from './server'
+export { serverConst } from './server.constant'
+export { rabbitmqConst } from './rabbitmq.constant'
