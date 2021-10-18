@@ -6,6 +6,8 @@
   "author": "Thiago da Silva <kiezosilva@gmail.com>",
   "license": "MIT",
   "scripts": {
+    "compose:up": "docker-compose --env-file .env up -d",
+    "compose:config": "docker-compose --env-file .env config",
     "start:dev": "tsnd --transpile-only --ignore-watch node_modules -r dotenv/config -r tsconfig-paths/register src/interface/http/server.ts",
     "lint": "eslint ./src --ext .ts",
     "lint:fix": "eslint ./src --ext .ts --fix",
